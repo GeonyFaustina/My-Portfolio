@@ -1,0 +1,198 @@
+body {
+    background-color: #f9ecc0;
+    margin:0;
+}
+a {
+    cursor: url("images/cursor.png"), pointer;
+}
+
+nav a {
+    
+    background-color: #6b0507;
+    color: #f9ecc0;
+    font-size: 40px;
+     margin: 0px;
+    flex:1;
+     text-decoration: none;
+    width:19.5%;
+    font-family: 'Honey Dew', Courier, monospace;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 15px;
+     transition: transform 0.3s;
+
+}
+
+a:hover{
+    background-color: #f9ecc0;
+    color: #5b0405;
+    transform: scale(1.10);
+}
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Honey Dew', Courier, monospace;
+    text-align: center;
+}
+p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Honey Dew', Courier, monospace;
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    margin:0;}
+    
+fieldset{
+    box-shadow: 0 0 30px rgb(202, 189, 150);
+    width: 75%;
+    margin: auto;
+
+}
+
+fieldset:hover {
+    box-shadow: 0 0 30px rgb(202, 189, 150);
+    background-color: #f6e6b4;
+}
+.picstrips {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.picstrips img {
+    width: 230px;
+    height: 220px;
+    object-fit: cover;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.profile img {
+    width: 260px;
+    height: 230px;
+    object-fit: cover;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#aboutme {
+    scroll-margin-top: 70px;
+}
+.skill-cabinet {
+    width: 75%;
+    margin: 30px auto;
+    border: 2px solid #750608;
+    box-shadow: 0 0 20px rgb(202,189,150);
+}
+
+.skill-cabinet legend {
+    color: #750608;
+    font-size: 30px;
+    font-family: 'Honey Dew', Courier, monospace;
+    font-weight: bold;
+}
+
+.skill-drawer {
+    border: 1px solid #750608;
+    margin: 15px;
+    padding: 5px 15px;
+}
+
+.skill-drawer h3 {
+    color: #750608;
+    font-family: 'Honey Dew', Courier, monospace;
+}
+
+.skill-drawer p {
+    color: #00334F;
+    font-size: 18px;
+}
+.goals {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.goals h1 {
+    color: #750608;
+    font-family: 'Honey Dew', Courier, monospace;
+    font-size: 35px;
+}
+
+.goals details {
+    width: 65%;
+    margin: 12px auto;
+    padding: 10px;
+    border-bottom: 1px dashed #750608;
+}
+
+.goals summary {
+    color: #750608;
+    font-family: 'Honey Dew', Courier, monospace;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.goals details p {
+    color: #00334F;
+    font-size: 19px;
+    font-family: 'Honey Dew', Courier, monospace;
+}
+fieldset {
+    transition: transform 0.3s;
+}
+
+fieldset:hover {
+    transform: scale(1.05);
+}
+#contact {
+    text-align: center;
+    margin: 60px auto;
+}
+
+#contact h1 {
+    color: #750608;
+    font-family: 'Honey Dew', Courier, monospace;
+    font-size: 40px;
+}
+
+#contact p {
+    color: #00334F;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+#contact a {
+    color: #750608;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #00334F;
+    text-decoration: underline;
+}
+#contact a {
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    letter-spacing: 2px;
+}
